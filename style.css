@@ -207,7 +207,7 @@ a {
 .hero {
     width: 100%;
     height: 507px;
-    background-image: url(/img/hero.jpg);
+    background-image: url(hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
