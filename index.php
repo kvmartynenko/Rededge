@@ -59,10 +59,12 @@
         <div class="container">
             <h1 class="hero-heading">Рекламно-информационное агентство</h1>
             <p class="hero-description">Будем рады, если Вы обратитесь в наше Агентство. Мы готовы предложить Вам передовые решения для продвижения Вашего бизнеса.</p>
-            <form action="#" method="" class="hero-form">
-                <input type="tel" name="number" required placeholder="Номер телефона" class="hero-form-input">
+            <form id="form" class="hero-form">
+                <input type="tel" name="phone" required placeholder="Номер телефона" class="hero-form-input">
                 <button type="submit" class="hero-form-button">Обратный звонок</button>
             </form>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="/common.js"></script>
             <script src="../../inputmask.min.js"></script>
             <script>
                 var selector = document.querySelector("input[type='tel']");
